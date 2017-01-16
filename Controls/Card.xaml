@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="ArenaHelper.Controls.Card"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:ArenaHelper"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Rectangle Fill="{Binding Background}" Height="34" Width="217"/>
+    <!--
+    <Grid Height="34" Width="217">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="38" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="{Binding Background}" Height="34" Width="217" Grid.ColumnSpan="2"/>
+        <local:OutlinedTextBlock Width="32" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                 Text="{Binding Cost}"
+                                 FontFamily="/ArenaHelper;component/resources/#Belwe Bd BT"
+                                 TextAlignment="Center" FontSize="20" Grid.Column="0" />
+
+        <Viewbox Height="16" HorizontalAlignment="Left" Grid.Column="1">
+            <local:OutlinedTextBlock VerticalAlignment="Center" Text="{Binding LocalizedName}"
+                                 Fill="{Binding ColorPlayer}" 
+                                 FontFamily="{Binding Font}" 
+                                 TextAlignment="Left" FontSize="13" />
+        </Viewbox>
+    </Grid>-->
+</UserControl>
